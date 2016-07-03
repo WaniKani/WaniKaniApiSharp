@@ -1,0 +1,45 @@
+﻿{
+  "user_information": {
+    "username": "Doublevil",
+    "gravatar": "13c34777f6243ad6f0207962d10c628d",
+    "level": 59,
+    "title": "Turtles",
+    "about": "About me.\r\nThis text is about me.",
+    "website": "http://houhou-srs.com",
+    "twitter": "https://twitter.com/doublevilu",
+    "topics_count": 6,
+    "posts_count": 793,
+    "creation_date": 1364331346,
+    "vacation_date": null
+  },
+    "requested_information": [
+        {
+      "character": "口",
+      "meaning": "mouth",
+      "onyomi": "こう, く",
+      "kunyomi": "くち",
+      "nanori": null,
+      "important_reading": "onyomi",
+      "level": 1,
+      "user_specific": {
+        "srs": "burned",
+        "srs_numeric": 9,
+        "unlocked_date": 1364905847,
+        "available_date": 1380093300,
+        "burned": true,
+        "burned_date": 1380093430,
+        "meaning_correct": 8,
+        "meaning_incorrect": 0,
+        "meaning_max_streak": 8,
+        "meaning_current_streak": 8,
+        "reading_correct": 8,
+        "reading_incorrect": 0,
+        "reading_max_streak": 8,
+        "reading_current_streak": 8,
+        "meaning_note": null,
+        "user_synonyms": ["oppose"],
+        "reading_note": null
+      }
+    }
+    ]
+}

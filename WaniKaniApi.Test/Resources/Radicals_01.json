@@ -1,0 +1,42 @@
+﻿{
+  "user_information": {
+    "username": "Doublevil",
+    "gravatar": "13c34777f6243ad6f0207962d10c628d",
+    "level": 59,
+    "title": "Turtles",
+    "about": "About me.\r\nThis text is about me.",
+    "website": "http://houhou-srs.com",
+    "twitter": "https://twitter.com/doublevilu",
+    "topics_count": 6,
+    "posts_count": 793,
+    "creation_date": 1364331346,
+    "vacation_date": null
+  },
+    "requested_information": [
+        {
+            "character": null,
+            "meaning": "stick",
+            "image": "https://s3.amazonaws.com/s3.wanikani.com/images/radicals/802e9542627291d4282601ded41ad16ce915f60f.png",
+            "level": 1,
+            "user_specific": 
+            {
+                "srs": "burned",
+                "srs_numeric": 9,
+                "unlocked_date": 1364331916,
+                "available_date": 1379680200,
+                "burned": true,
+                "burned_date": 1379680268,
+                "meaning_correct": 8,
+                "meaning_incorrect": 0,
+                "meaning_max_streak": 8,
+                "meaning_current_streak": 8,
+                "reading_correct": null,
+                "reading_incorrect": null,
+                "reading_max_streak": null,
+                "reading_current_streak": null,
+                "meaning_note": null,
+                "user_synonyms": null
+            }
+        }
+    ]
+}
