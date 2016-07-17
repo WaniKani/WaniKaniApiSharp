@@ -9,6 +9,8 @@ The currently supported API version is **V1.4**.
 Everything featured in the official WaniKani API documentation is implemented. All query methods are XML documented and unit tested.
 
 ## Usage
+First, reference the [WaniKaniApiSharp NuGet Package](WaniKaniApiSharp) (or the DLL).
+
 The main class you will be using is ```WaniKaniApi.WaniKaniClient```. You can instantiate it with an API key:
 ```csharp
 var client = new WaniKaniApi.WaniKaniClient("EnterYourApiKeyHere");
