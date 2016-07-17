@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>WaniKaniApiSharp</id>
+    <version>$version$</version>
+    <title>WaniKaniApiSharp</title>
+    <authors>Doublevil</authors>
+    <owners>Doublevil</owners>
+    <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
+    <projectUrl>https://github.com/Doublevil/WaniKaniApiSharp</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A complete WaniKani API client for .net</description>
+    <releaseNotes>First release.</releaseNotes>
+    <copyright>Copyright Doublevil 2016</copyright>
+    <tags>wanikani api client</tags>
+	<dependencies>
+	  <dependency id="Newtonsoft.Json" version="8.0.3" />
+	</dependencies>
+  </metadata>
+  <files>
+    <file src="bin\Release\WaniKaniApi.dll" target="lib" />
+	<file src="bin\Release\WaniKaniApi.pdb" target="lib" />
+  </files>
+</package>
