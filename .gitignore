@@ -3,3 +3,8 @@
 ################################################################################
 
 /.vs
+/packages
+/WaniKaniApi/bin/Debug
+/WaniKaniApi/obj
+/WaniKaniApi.Test/bin/Debug
+/WaniKaniApi.Test/obj/Debug

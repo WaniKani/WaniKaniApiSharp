@@ -3,6 +3,7 @@ using System.Linq;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using WaniKaniApi.Models;
+using System.Reflection;
 
 namespace WaniKaniApi.Converters
 {
@@ -18,7 +19,7 @@ namespace WaniKaniApi.Converters
 
         public override object ReadJson(JsonReader reader, Type objectType, object existingValue, JsonSerializer serializer)
         {
-            Type targetType = objectType.GetGenericArguments().FirstOrDefault();
+            Type targetType = objectType.GenericTypeArguments.FirstOrDefault();
             if (targetType == null)
                 throw new Exception("The WaniKaniDashboardItem container should expect a generic typed list.");
 
@@ -69,8 +70,8 @@ namespace WaniKaniApi.Converters
 
         public override bool CanConvert(Type objectType)
         {
-            return typeof(WaniKaniCriticalItem).IsAssignableFrom(objectType)
-                || typeof(WaniKaniDashboardItem).IsAssignableFrom(objectType);
+            return typeof(WaniKaniCriticalItem).GetTypeInfo().IsAssignableFrom(objectType)
+                || typeof(WaniKaniDashboardItem).GetTypeInfo().IsAssignableFrom(objectType);
         }
     }
 }
