@@ -13,11 +13,11 @@ namespace WaniKaniApi.ApiClient
         /// <returns>The response of the API as a string.</returns>
         public async Task<string> QueryApiAsync(Uri uri)
         {
-            HttpClient client = new HttpClient();
-            //string response = await client.DownloadStringTaskAsync(uri);
-            string response = await client.GetStringAsync(uri);
-
-            return response;
+            using (HttpClient client = new HttpClient())
+            {
+                string response = await client.GetStringAsync(uri);
+                return response;
+            };
         }
     }
 }
