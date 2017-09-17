@@ -1,6 +1,5 @@
 ﻿using System;
-using System.Net;
-using System.Text;
+using System.Net.Http;
 using System.Threading.Tasks;
 
 namespace WaniKaniApi.ApiClient
@@ -14,12 +13,11 @@ namespace WaniKaniApi.ApiClient
         /// <returns>The response of the API as a string.</returns>
         public async Task<string> QueryApiAsync(Uri uri)
         {
-            using (WebClient client = new WebClient())
+            using (HttpClient client = new HttpClient())
             {
-                client.Encoding = Encoding.UTF8;
-                string response = await client.DownloadStringTaskAsync(uri);
+                string response = await client.GetStringAsync(uri);
                 return response;
-            }
+            };
         }
     }
 }

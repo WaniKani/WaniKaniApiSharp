@@ -1,0 +1,10 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/packages
+/WaniKaniApi/bin/Debug
+/WaniKaniApi/obj
+/WaniKaniApi.Test/bin/Debug
+/WaniKaniApi.Test/obj/Debug

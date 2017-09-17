@@ -1,5 +1,5 @@
 # WaniKaniApiSharp
-A complete WaniKani API client for .net
+A complete WaniKani API client for .net, available on [NuGet](https://www.nuget.org/packages/WaniKaniApiSharp), and compatible with .net 4.5 and .net Core.
 
 ## Description
 WaniKaniApiSharp is a .net library that allows you to easily query the [official WaniKani API](https://www.wanikani.com/api).
